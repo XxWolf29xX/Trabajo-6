@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Tabla de horarios */
+.dias{
+    font-size: 120%;
+    font-weight: bold;
+}
+.horarios{
+    font-style: italic;
+}
+.dias,.horarios{
+    color:rgb(233, 32, 25);
+    text-align: center;
+}
+
+/* header */
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color:rgba(241, 143, 15, 0.74);
+    padding-left: 10px;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+    height: 25px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.562);
+}
+
+/* formulario de pedidos */
+
+.pedidosformulario{
+    margin: 5px;
+    padding: 0px 7px 5px;
+    width: 25%;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+ /* formulario de contacto */
+
+.contactoformulario{
+    margin: 5px;
+    padding: 0px 7px 5px;
+    width: 25%;
+    border: 3px solid black;
+    border-radius: 5px;
+ }
+
+ /* navegador */
+
+ .navegador{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 17px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    align-items: center;
+ }
+.op2,.op3,.op4,.op5{
+    padding-right: 5px;
+    padding-left: 5px;
+    border-left: 2px solid black;
+}
+.op1{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+ /* titulos */
+
+ h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
